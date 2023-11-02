@@ -1,8 +1,6 @@
 import { Container, Form, H2, Label, Input, Button, ErrorP  } from './styles'
 import { toast } from 'react-toastify';
-
 import axios from 'axios'
-
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from "react-hook-form"
